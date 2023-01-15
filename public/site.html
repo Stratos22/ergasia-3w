@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <title>3w</title>
+</head>
+<body>
+  <div class="grid">
+  <header>
+    <h1>Κώστας Καρυωτάκης</h1>
+  </header>
+  <aside>
+    <div id="section1" class="sidebar-section hide" onclick="loadContent('b1.html')">Τα πρώτα βήματα</div>
+    <div id="section2" class="sidebar-section hide" onclick="loadContent('b2.html')">Ο έρωτας με την Πολυδούρη</div>
+    <div id="section3" class="sidebar-section hide" onclick="loadContent('b3.html')">Τελευταία χρόνια</div>
+    <div id="section4" class="sidebar-section hide" onclick="loadContent('p1.html')">Καρυωτάκη</div>
+    <div id="section5" class="sidebar-section hide" onclick="loadContent('p2.html')">Πολυδούρη</div>
+    <div id="section6" class="sidebar-section hide" onclick="loadContent('p3.html')">Ο θάνατος του Καρυωτάκη</div>
+  </aside>
+  <nav>
+    <ul>
+      <div class="navbar">
+        <li><a href="#home" id="button1" onclick="loadContent('home.html')">Αρχή</a></li>
+        <li><a href="#biography" id="button2" onclick="loadContent('biography.html')">Βιογραφία</a></li>
+        <li><a href="#erga" id="button3" onclick="loadContent('erga.html')">Έργα</a></li>
+        <li><a href="#photo" id="button4" onclick="loadContent('photo.html')">Φωτογραφίες</a></li>
+        <li><a href="#sauce" id="button5" onclick="loadContent('sauce.html')">Σύνδεσμοι</a></li>
+        <li><a href="#admin" id="button6" onclick="loadContent('admin.html')">Διαχείριση</a></li>
+      </div>
+    </ul>
+  </nav>
+    <main id="mainContent"></main>
+    <footer class="footcontainer">
+      <p> Ευστρατιος Αρχοντης 2022-2023</p>
+      </p>
+    </footer>
+</body>
+</div>
+<script src= "script.js"defer></script>
+</html>
